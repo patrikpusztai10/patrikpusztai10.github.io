@@ -92,7 +92,7 @@ button:hover {
 }
 
 /* Additional Media Query for larger screens */
-@media (min-width: 601px) {
+@media (min-width: 501px) {
     h1 {
         font-size: 14em; /* Increase heading size on larger screens */
     }
