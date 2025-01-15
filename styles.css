@@ -94,7 +94,7 @@ button:hover {
 /* Additional Media Query for larger screens */
 @media (min-width: 601px) {
     h1 {
-        font-size: 3em; /* Increase heading size on larger screens */
+        font-size: 14em; /* Increase heading size on larger screens */
     }
 
     p {
