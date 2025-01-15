@@ -5,14 +5,14 @@ body {
     flex-direction: column;    
     align-items: center;        
     justify-content: center;    
-    min-height: 100vh;  /* Ensures the body takes full height on small screens */
+    min-height: 100vh;  
     margin: 0;
     padding: 10px; 
 }
 
 h1 {
-    font-size: 4em; /* Larger heading for better visibility on larger screens */
-    margin-bottom: 20px; /* More space below heading for clarity */
+    font-size: 2.5em; /* Default heading size */
+    margin-bottom: 20px; /* More space below heading */
     text-align: center; /* Centering the heading */
 }
 
@@ -35,7 +35,7 @@ p {
 
 .images img {
     width: 100%;                
-    max-width: 180px;          /* Reduced max-width for better scaling */
+    max-width: 180px;          
     height: auto;             
     border-radius: 20px;       
     object-fit: cover;         
@@ -43,8 +43,8 @@ p {
 
 button {
     margin-top: 20px;
-    padding: 12px 24px; /* Increased padding for larger button */
-    font-size: 18px;     /* Larger font for better readability */
+    padding: 12px 24px; 
+    font-size: 18px;     
     font-family: inherit;
     cursor: pointer;
     border: none;
@@ -52,7 +52,7 @@ button {
     color: white;
     border-radius: 6px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    transition: background-color 0.3s; 
 }
 
 button:hover {
@@ -75,19 +75,19 @@ button:hover {
     }
 
     .images {
-        flex-direction: column; /* Stack images vertically on smaller screens */
-        align-items: center; /* Center images */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .images img {
-        width: 90%;            /* Full width for images on mobile */
-        max-width: none;       /* Remove max-width restriction */
-        margin-bottom: 10px;   /* Space between images */
+        width: 90%;            
+        max-width: none;       
+        margin-bottom: 10px;   
     }
 
     button {
-        padding: 10px 20px;    /* Adjust button size for mobile */
-        font-size: 16px;        /* Font size adjustment for mobile */
+        padding: 10px 20px;    
+        font-size: 16px;        
     }
 }
 
