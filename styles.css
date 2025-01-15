@@ -5,20 +5,22 @@ body {
     flex-direction: column;    
     align-items: center;        
     justify-content: center;    
-    min-height: 130vh;  /* Ensures the body takes full height on small screens */
+    min-height: 100vh;  /* Ensures the body takes full height on small screens */
     margin: 0;
     padding: 10px; 
 }
 
 h1 {
-    font-size: 2em; /* Larger heading for better visibility */
-    margin-bottom: 10px; /* Add space below heading */
+    font-size: 2.5em; /* Larger heading for better visibility on larger screens */
+    margin-bottom: 20px; /* More space below heading for clarity */
+    text-align: center; /* Centering the heading */
 }
 
 p {
     text-align: center; /* Center text for a balanced look */
     font-size: 1.1em; /* Slightly larger text for readability */
-    margin: 5px 0; /* Uniform spacing above and below paragraphs */
+    margin: 10px 0; /* Uniform spacing above and below paragraphs */
+    max-width: 800px; /* Limiting the width of paragraphs for better readability */
 }
 
 .images {
@@ -86,5 +88,16 @@ button:hover {
     button {
         padding: 10px 20px;    /* Adjust button size for mobile */
         font-size: 16px;        /* Font size adjustment for mobile */
+    }
+}
+
+/* Additional Media Query for larger screens */
+@media (min-width: 601px) {
+    h1 {
+        font-size: 3em; /* Increase heading size on larger screens */
+    }
+
+    p {
+        font-size: 1.2em; /* Slightly larger text for paragraphs on larger screens */
     }
 }
