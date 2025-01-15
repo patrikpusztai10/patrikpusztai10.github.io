@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-size: 2.5em; /* Larger heading for better visibility on larger screens */
+    font-size: 4em; /* Larger heading for better visibility on larger screens */
     margin-bottom: 20px; /* More space below heading for clarity */
     text-align: center; /* Centering the heading */
 }
