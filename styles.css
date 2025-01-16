@@ -93,10 +93,10 @@ button:hover {
 /* Additional Media Query for larger screens */
 @media (min-width: 601px) {
     h1 {
-        font-size: 2em; 
+        font-size: 3em; 
     }
 
     p {
-        font-size: 1.3em; 
+        font-size: 2em; 
     }
 }
