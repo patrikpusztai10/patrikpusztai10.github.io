@@ -11,16 +11,16 @@ body {
 }
 
 h1 {
-    font-size: 2.5em; /* Default heading size */
-    margin-bottom: 20px; /* More space below heading */
-    text-align: center; /* Centering the heading */
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+    text-align: center;
 }
 
 p {
-    text-align: center; /* Center text for a balanced look */
-    font-size: 1.1em; /* Slightly larger text for readability */
-    margin: 10px 0; /* Uniform spacing above and below paragraphs */
-    max-width: 800px; /* Limiting the width of paragraphs for better readability */
+    text-align: center;
+    font-size: 1.1em;
+    margin: 10px 0;
+    max-width: 800px;
 }
 
 .images {
@@ -60,18 +60,17 @@ button:hover {
     color: #333;
 }
 
-/* Media Queries for Responsive Design */
 @media (max-width: 600px) {
     body {
         padding: 5px;
     }
 
     h1 {
-        font-size: 1.8em; /* Smaller heading size for mobile */
+        font-size: 1.8em;
     }
 
     p {
-        font-size: 1em; /* Adjust paragraph text size for mobile */
+        font-size: 1em; 
     }
 
     .images {
@@ -94,10 +93,10 @@ button:hover {
 /* Additional Media Query for larger screens */
 @media (min-width: 601px) {
     h1 {
-        font-size: 2em; /* Increase heading size on larger screens */
+        font-size: 2em; 
     }
 
     p {
-        font-size: 1.3em; /* Slightly larger text for paragraphs on larger screens */
+        font-size: 1.3em; 
     }
 }
